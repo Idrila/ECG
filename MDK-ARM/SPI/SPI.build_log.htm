@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.17.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Hellokitty,  , LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.17
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.17
+Dialog DLL:      DCM.DLL V1.13.4.0
+Target DLL:      CMSIS_AGDI.dll V1.23.1.0
+Dialog DLL:      TCM.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+C:\Users\Hellokitty\Desktop\电子学实验Ⅱ心电放大器\SPI\MDK-ARM\SPI.uvprojx
+Project File Date:  12/07/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 1 (build 106)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'SPI'
+compiling stm32f4xx_it.c...
+../Core/Inc/main.h(34): warning:  #1295-D: Deprecated declaration Get_ADC_Value - give arg types
+  uint16_t Get_ADC_Value();
+../Core/Src/stm32f4xx_it.c(67): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	float mid=min+0.6*(max-min);
+../Core/Src/stm32f4xx_it.c(254): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		 py=230-data/3.3*160;
+../Core/Src/stm32f4xx_it.c(257): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		    LCD_DrawLine(px-0.1,py0,px,py,RED);
+../Core/Src/stm32f4xx_it.c(259): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		 px=px+0.1;
+../Core/Src/stm32f4xx_it.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=12170 RO-data=9274 RW-data=60 ZI-data=10740  
+FromELF: creating hex file...
+"SPI\SPI.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Hellokitty\Desktop\电子学实验Ⅱ心电放大器\SPI\MDK-ARM\RTE
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
